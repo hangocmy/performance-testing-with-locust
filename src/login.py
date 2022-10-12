@@ -10,6 +10,7 @@ class LoginToApplication(HttpUser):
         "password": c.PASSWORD
         }
     }
-    self.client.post(c.LNK_LOGIN, jsonData)
+    #self.client.post(c.LNK_LOGIN, jsonData)
+    self.client.post('/api/users/login', jsonData)
     
 

@@ -15,6 +15,8 @@ Step 2: `pip install locust`
 - `locust` if you have `locustfile.py`
 or
 `locust -f src`
+or
+`locust -f src/file_name.py`
 
 2. Open `localhost:8089` in browser
 
