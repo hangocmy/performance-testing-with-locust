@@ -22,3 +22,14 @@ or
 
 ### Run: Direct command line usage / headless
 - `locust --headless --users 10 --spawn-rate 1 -H your_host`
+
+
+### Install dependencies
+##### Install
+- `pip install -r requirements.txt`
+
+##### Update install
+- `pip install –upgrade -r requirements.txt`
+
+##### Uninstall
+- `pip uninstall -r requirements.txt -y`
